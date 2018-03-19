@@ -395,7 +395,7 @@ p {
 }
 
 .welcome-thumb img {
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
@@ -520,7 +520,10 @@ p {
     font-size: 48px;
     margin-bottom: 30px;
 }
-
+.special_description_img img {
+     height: 100%;
+    width: 100%;
+}
 .single-special:hover {
     -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
             box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
